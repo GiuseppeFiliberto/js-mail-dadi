@@ -17,6 +17,6 @@ else if(firstNumber < secondNumber){
     alert(`Purtroppo hai perso. ${firstNumber} è minore di ${secondNumber}`);
     
 }
-else (firstNumber === secondNumber);{
+else {
     alert(`Nessuno di voi ha vinto. ${firstNumber} e ${secondNumber} sono uguali`)
 }
