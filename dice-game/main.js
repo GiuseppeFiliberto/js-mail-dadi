@@ -6,3 +6,17 @@ Prima di partire a scrivere codice poniamoci qualche domanda per individuare gli
 let firstNumber = Math.floor(Math.random()* 6) +1;
 let secondNumber = Math.floor(Math.random()* 6) +1;
 console.log(firstNumber);
+
+// 2 - Adesso creo una condizione per stabilire chi ha vinto e chi ha perso in base al numero che è uscito
+
+if (firstNumber > secondNumber){
+    alert(`Hai vinto! ${firstNumber} è maggiore di ${secondNumber}`);
+
+} 
+else if(firstNumber < secondNumber){
+    alert(`Purtroppo hai perso. ${firstNumber} è minore di ${secondNumber}`);
+    
+}
+else (firstNumber === secondNumber);{
+    alert(`Nessuno di voi ha vinto. ${firstNumber} e ${secondNumber} sono uguali`)
+}
