@@ -14,7 +14,22 @@ let canAcces
 // 3 - adesso controlliamo se la mail dell'utente è tra quelle degli invitati creado un ciclo for 
 
 for (let index = 0; index < emailsInvited.length; index++){
-    const person =  emailsInvited[index];
-    console.log(person);
+    const mailSelector =  emailsInvited[index];
+    console.log(mailSelector);
+
+    let emailToCheck = prompt("Scrivi la tua mail per verificare se sei invitato")
+
+    if (mailSelector === emailToCheck) {
+        canAcces = true;
+        alert ("Complimenti, sei stato invitato e puoi accedere alla festa")
+        console.log(canAcces);
+        
+        
+    } else (mailSelector != emailToCheck); {
+        canAcces = false;
+        alert("Mi dispiace, non sei stato invitato");
+        console.log(canAcces);
+        
+    }
     
 }
