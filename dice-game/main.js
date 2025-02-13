@@ -3,6 +3,6 @@ Prima di partire a scrivere codice poniamoci qualche domanda per individuare gli
 
 // 1 - Genero due variabili, per il giocatore e per il computer,  che conterrano all'interno dei numeri randomici da 1 a 6
 
-let firstNumber = Math.floor(math.random()* 6) +1;
-let secondNumber = Math.floor(math.random()* 6) +1;
-
+let firstNumber = Math.floor(Math.random()* 6) +1;
+let secondNumber = Math.floor(Math.random()* 6) +1;
+console.log(firstNumber);
