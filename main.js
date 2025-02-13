@@ -23,13 +23,14 @@ for (let index = 0; index < emailsInvited.length; index++){
         canAcces = true;
         alert ("Complimenti, sei stato invitato e puoi accedere alla festa")
         console.log(canAcces);
+        break;
         
         
-    } else (mailSelector != emailToCheck); {
+    } else (mailSelector !== emailToCheck); {
         canAcces = false;
         alert("Mi dispiace, non sei stato invitato");
         console.log(canAcces);
-        
+        break;
     }
     
 }
