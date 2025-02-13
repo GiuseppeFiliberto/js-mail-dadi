@@ -14,5 +14,7 @@ let canAcces
 // 3 - adesso controlliamo se la mail dell'utente è tra quelle degli invitati creado un ciclo for 
 
 for (let index = 0; i < emailsInvited.length; i++){
+    const person =  emailsInvited[index];
+    console.log(person);
     
 }
